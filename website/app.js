@@ -13,7 +13,7 @@ const getWeather = async(url, zip, key) => {
         method: 'GET',
     };
 
-    return fetch(`${url}?zip=${zip},us&appid=${key}`)
+    return fetch(`${url}?zip=${zip},us&appid=${key}&units=imperial`)
         .then(response => response.json())
         .catch(err => console.error(err));
 }
