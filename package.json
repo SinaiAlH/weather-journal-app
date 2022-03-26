@@ -1,0 +1,14 @@
+{
+  "name": "WeatherJournalApp",
+  "version": "0.0.1",
+  "description": "Udacity Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^3.0.1"
+  }
+}
